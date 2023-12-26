@@ -31,6 +31,5 @@ pipeline {
             steps {
                 sh '/usr/bin/docker container run -itd --name hackathon -p 9876:80 amita064/hackathon2'
             }
-        
        }
 }
